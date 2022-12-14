@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+img{
+    max-width: 100%;
+}
+
+.cards h2{
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.maps iframe{
+    width: 100%;
+    display: block;
+}
+
+#lgpd{
+    display: none;
+}

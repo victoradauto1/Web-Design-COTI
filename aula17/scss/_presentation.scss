@@ -1,0 +1,9 @@
+.presentation{
+    margin: 50px 0;
+    text-align: center;
+
+    h2{
+        @include title('h2');
+    }
+
+}

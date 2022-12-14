@@ -1,0 +1,14 @@
+@mixin title($tipo) {
+    font-family:  'killthelights';
+    font-weight: normal;
+    color: $primary;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.0rem;
+
+    @if ($tipo == 'h2'){
+        font-size: 2.4rem;
+    }@else if($tipo == 'h3'){
+        font-size: 2.1rem;
+    }
+
+}

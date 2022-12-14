@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login O Rústico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color:#473C38;
+            
+        }
+        .login-area{
+            display:flex;
+            justify-content: space-between;
+            margin:180px 130px 194px 160px;
+            
+        }
+
+        .caixa-de-dialogo {
+            max-width: 560px;
+            max-height: 650px;
+            padding-left: 88px;
+            padding-right: 88px;
+            padding-top: 32px;
+            background-color: #E5E5E5;
+        }             
+
+        .caixa-de-dialogo img{
+            display: block;
+            margin: auto;
+        }
+
+        .caixa-de-dialogo h1{
+            line-height: 48px;
+            font-size: 36px;
+            font-family:  'Playfair Display', serif;
+            margin-top: 66px;
+            margin-bottom: 19px;
+            font-weight: normal;
+        }
+
+        .caixa-de-dialogo p{
+            line-height: 24px;
+            font-size: 16px;
+            color:#B2935B;
+            font-family:  'Roboto', sans-serif;
+            margin-top: 20px;
+
+        }
+
+        .rustico-login img{
+            max-width: 560px;
+            max-height: 650px;
+        }
+
+        .login-area label{
+            display: block;
+            line-height: 24px;
+            font-size: 16px;
+            font-family:  'Roboto', sans-serif;
+            color: #473C38;
+
+        }
+
+        .formlogin input{
+            width: 380px;
+            border: none;
+            line-height: 30px;
+
+        }
+
+        .btn{
+            display: inline-block;
+            background-color: #473C38;
+            color: #F0F1F0;
+            padding: 6px 25px;
+            border-radius: 5px;
+            border-style: none;
+            margin-top: 10px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="login-area">
+        <div class="caixa-de-dialogo">
+            <img src="img/logo-login.png" alt="">
+
+            <h1>Área Restrita </h1>
+
+            <form action="gravar.php">
+                <div class="formlogin">
+                    <label for="flogin">Digite seu login</label>
+                    <input type="text" id="flogin" >
+                </div>
+                <div class="formlogin">
+                    <label for="fsenha">Digite sua senha</label>
+                    <input type="password" id="fsenha">
+                </div>
+                <button class="btn">Acessar Sistema</button>
+            </form>
+        
+            <p>Esqueci a senha</p>
+        
+        </div>
+
+        <div class="rustico-login">
+            <img src="img/rustico-login.jpg" alt="">
+        </div>
+
+    </div>
+    
+</body>
+</html>

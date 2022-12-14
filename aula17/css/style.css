@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'killthelights';
+  src: url(../font/KillTheLights.ttf);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  background-color: #EEEEEE;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.6rem;
+  color: #888888;
+}
+
+.btn {
+  font-size: 1.6rem;
+  color: #888888;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 0.5rem 1.5rem;
+  border: solid 1px #888888;
+}
+
+.btn:hover {
+  background-color: #8C0000;
+  color: white;
+  border: solid 1px white;
+}
+
+.divisor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0;
+}
+
+.bg-primary {
+  background-color: #8C0000;
+}
+
+@media (max-width: 992px) {
+  .btn-menu {
+    position: absolute;
+    right: 0.5rem;
+    top: 37px;
+  }
+  .btn-menu .bar {
+    width: 40px;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: white;
+  }
+}
+
+.header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8C0000), to(#600000));
+  background-image: linear-gradient(#8C0000, #600000);
+  padding: 20px 0;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .menu {
+  margin-top: 20px;
+  font-size: 1.6rem;
+}
+
+.header .menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header .menu ul li {
+  display: inline-block;
+}
+
+.header .menu ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 30px;
+  font-family: 'killthelights';
+}
+
+.header .menu ul li ul {
+  position: absolute;
+  z-index: 1;
+  padding-top: 20px;
+  opacity: 0;
+  -webkit-transition: 0.3s -webkit-transform;
+  transition: 0.3s -webkit-transform;
+  transition: 0.3s transform;
+  transition: 0.3s transform, 0.3s -webkit-transform;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  pointer-events: none;
+}
+
+.header .menu ul li ul li {
+  display: block;
+  background-color: #600000;
+}
+
+.header .menu ul li ul li a {
+  display: block;
+  margin: 0;
+  padding: 10px 30px;
+}
+
+.header .menu ul li:hover {
+  text-decoration: underline;
+}
+
+.header .menu ul li:hover ul {
+  pointer-events: all;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
+@media (max-width: 996px) {
+  .menu-open {
+    display: block !important;
+  }
+  .header .menu {
+    display: none;
+    width: 100%;
+  }
+  .header .menu ul li {
+    display: block;
+    text-align: center;
+    border-bottom: 1px #888888 dashed;
+  }
+  .header .menu ul li a {
+    display: block;
+    margin: 0;
+    padding: 15px 0;
+  }
+  .header .menu ul li:first-child {
+    border-top: 1px #888888 dashed;
+  }
+  .header .menu ul li:hover ul {
+    position: static;
+    padding-top: 0;
+  }
+  .header .menu ul li:hover ul a {
+    background-color: #888888;
+    color: #8C0000;
+  }
+  .header .img {
+    width: 200px;
+  }
+}
+
+.banner img, .banner video {
+  width: 100%;
+}
+
+.presentation {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.presentation h2 {
+  font-family: 'killthelights';
+  font-weight: normal;
+  color: #8C0000;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.0rem;
+  font-size: 2.4rem;
+}
+
+.gallery {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.gallery h3 {
+  font-family: 'killthelights';
+  font-weight: normal;
+  color: #8C0000;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.0rem;
+  font-size: 2.1rem;
+}
+
+.gallery img {
+  -webkit-filter: grayscale(65%);
+          filter: grayscale(65%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.gallery img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.gallery .col-7 {
+  text-align: start;
+}
+
+.comment {
+  text-align: center;
+  padding: 5.0rem 0;
+}
+
+.comment p {
+  font-size: 1.8rem;
+  font-style: italic;
+  color: white;
+}
+
+.comment span {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#8C0000), to(#600000));
+  background-image: linear-gradient(#8C0000, #600000);
+  padding: 15px;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  margin: 0;
+  font-size: 1.4rem;
+}
+/*# sourceMappingURL=style.css.map */

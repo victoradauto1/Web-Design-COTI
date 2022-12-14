@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+
+/* ****tablet**** */
+
+@media (max-width: 1000px){
+
+    /* Configurações gerais */
+    
+    h2{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    .btn{
+        display: block;
+        text-align: center;
+
+    }
+    /* header */
+    
+    .menu{
+       display: none;
+    }
+
+    .btn-menu{
+        display:block;
+        margin-left: 60px;
+        margin-right: 20px;
+    }
+
+    /* hero */
+
+    .hero{
+        padding: 0 20px;
+        height: 70vh;
+    }
+
+    .content-hero h1{
+        font-size: 84px;
+
+        }
+    
+    .content-hero p{
+        font-size: 18px;
+        max-width: 40%;
+    }
+
+    
+
+    /* presentation */
+
+    .presentation{
+        flex-direction: column;
+        padding: 0 20px;
+        height: auto;
+        margin: 20px auto;
+        
+    }
+
+    .content-presentation{
+        width: 100%;
+        margin: 18px 20px;
+        padding-top: 30px;
+    }
+
+
+    /* Info */
+
+    .content-info{
+        width: 100%;
+        padding: 0 20px;
+        margin: 10px auto;
+        box-sizing: border-box;
+    }
+
+    .image-info{
+        display: none;
+    }
+    
+    /* footer */
+
+    .footer{
+        padding: 10px 10px;
+    }
+}
+
+
+
+/* ****celular**** */
+
+@media (max-width: 375px){
+
+    /* Configurações gerais */
+    
+    h2{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    
+
+    /* hero */
+
+    .hero{
+        height: 60vh;
+    }
+
+    .content-hero h1{
+        font-size: 42px;
+
+        }
+    
+    .content-hero p{
+        font-size: 16px;
+        max-width: 182px;
+    }
+}

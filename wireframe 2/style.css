@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    max-width: 1360px;
+}
+.header{
+    width: 100%;
+    height: 58px;
+    background-color: #0B0B0B;
+}
+.container{
+    width: auto;
+    max-width: 1110px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.logo{
+    width: 323px;
+    height: 80px;
+    background-color: #333333;
+}
+
+.menu{
+    width: 540px;
+    height: 30px;
+    background-color: #333333;
+}
+
+.tittle{
+    width: auto;
+    height: auto;
+    background-color: #888888;
+}
+
+.titlle-padding {
+    
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.titlle-content{
+    width: 540px;
+    height: 260px;
+    background-color: #333333;   
+}
+
+.card {
+    width: 255px;
+    height: 224px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #333333;
+}
+
+.flex-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-parte4{
+    display: flex;
+    justify-content: space-between;
+    background-color: #CCCCCC;
+    
+}
+
+.card-medio{
+    width: 255px;
+    height: 180px;
+    background-color: #333333;
+}
+
+.subcontainer{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.parte4-padding{
+    padding: 50px 129px 50px 123px;
+}
+
+.mini-card{
+    width: 160px;
+    height: 180px;
+    background-color: #333333;
+    margin-left: 30px;
+}
+
+.figura7{
+    width: 350px;
+    height: 140px;
+    background-color: #888888;
+}
+
+.parte5-margin{
+    margin: 50px 126px 50px 128px;
+}
+
+.figura8{
+    width: 350px;
+    height: 75px;
+    background-color: #888888;
+}
+
+.parte6-padding{
+    background-color: #333333;
+    padding: 50px 126px 50px 128px;
+}
+
+.figura9{
+    width: 1110px;
+    height: 225px;
+    background-color: #888888;    
+}
+
+
+.figura10{
+    width: 350px;
+    height: 140px;
+    background-color: #888888;    
+}
+
+.figura11{
+    width: 635px;
+    height: 100px;
+    background-color: #888888; 
+}
+
+.footer{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.figura12{
+    width: 350px;
+    height: 75px;
+    background-color: red;
+}
+
+.figura13{
+    width: 540px;
+    height: 45px;
+    background-color: goldenrod;
+
+}
+
+.subcontainer-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}

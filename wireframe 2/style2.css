@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.footer{
+    width: auto;
+    height: auto;
+    max-width: 1110px;
+    background-color: #E5E5E5;
+    padding: 50px 126px 50px 128px;
+    
+}
+
+.parte1{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.figura12{
+    width: 350px;
+    height: 75px;
+    background-color: #333333;
+       
+}
+
+.parte2{
+    width: 540px;
+    height: 45px;
+    background-color: #333333;
+    margin-top: 50px;
+    margin: auto;
+    
+    
+}

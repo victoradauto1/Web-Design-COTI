@@ -1,0 +1,44 @@
+.btn{
+    font-size: 1.6rem;
+    color: $medium;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+    padding: 0.5rem 1.5rem;
+    border: solid 1px $medium;
+
+    &:hover{
+        background-color: $primary;
+        color: white;
+        border: solid 1px white;
+
+    }
+}
+
+.divisor{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    
+}
+
+.bg-primary{
+    background-color: $primary;
+}
+
+@media (max-width: 992px) {
+    .btn-menu{
+
+        position: absolute;
+        right: 0.5rem;
+        top: 37px;
+    
+        .bar{
+            width: 40px;
+            height: 2px;
+            margin-bottom: 4px;
+            background-color: white;
+        }
+    }
+}
